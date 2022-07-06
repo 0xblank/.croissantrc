@@ -8,6 +8,3 @@ fi
 
 mv .bashrc .bashrc.old
 wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/.bashrc
-source .bashrc
-
-echo '\nfin'
