@@ -1,10 +1,9 @@
 #!/bin/bash
 
 if [[ $SHELL =~ /.*/bash ]]; then
-    echo 'shell = bash'
+    mv .bashrc .bashrc.old
+    wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/.bashrc
 elif [[ $SHELL =~ /.*/zsh ]]; then
-    echo 'shell = zsh'
+    mv .zshrc .zshrc.old
+    wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/.zshrc
 fi
-
-mv .bashrc .bashrc.old
-wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/.bashrc
