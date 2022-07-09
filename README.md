@@ -6,9 +6,9 @@ This repo is basically just a .bashrc/.zshrc and a bash script that will enable 
 
 ### bash
 ```shell
-cd && wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/croissantage.sh && chmod 700 croissantage.sh && bash croissantage.sh && rm croissantage.sh && source .bashrc
+ cd && wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/croissantage.sh && chmod 700 croissantage.sh && bash croissantage.sh && rm croissantage.sh && source .bashrc
 ```
 ### zsh
 ```shell
-cd && wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/croissantage.sh && chmod 700 croissantage.sh && bash croissantage.sh && rm croissantage.sh && source .zshrc
+ cd && wget https://raw.githubusercontent.com/0xblank/.croissantrc/master/croissantage.sh && chmod 700 croissantage.sh && bash croissantage.sh && rm croissantage.sh && source .zshrc
 ```
